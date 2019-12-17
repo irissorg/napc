@@ -31,10 +31,10 @@ add_shortcode('napc_edit_button', function () {
 });
 
 add_shortcode('sg_logo', function () {
-	// $context = Timber::get_context();
-    // $post = new TimberPost();
-    // $context['post'] = $post;
-    return Timber::compile( 'sg-logo.twig' );
+	$context = Timber::get_context();
+    $post = new TimberPost();
+    $context['post'] = $post;
+    return Timber::compile( 'sg-logo.twig', $context );
 
     // $out = '';
     // return $out;
