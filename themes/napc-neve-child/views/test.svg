@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="0 0 100 100"
+   height="100"
+   width="100">
+  <g
+     transform="translate(0,-952.36216)">
+    <path
+       d="m 5,1021.1122 56.071429,-56.96433 -3.75,50.71433 z"
+       class="my-path"
+       fill="#9f9f9f" />
+    <path
+       d="M 96.607142,1036.8265 5,1021.1122 l 52.321429,-6.25 z"
+       fill="#7a7a7a"
+       class="my-path" />
+    <path
+       d="m 96.607142,1036.8265 -35.535713,-72.67863 -3.75,50.71433 z"
+       fill="#e0e0e0"
+       class="my-path" />
+  </g>
+</svg>
