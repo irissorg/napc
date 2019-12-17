@@ -27,7 +27,8 @@ add_action('neve_before_header_hook', 'napc_add_edit_button');
 
 function napc_add_edit_button(){
     if (is_singular(array( 'resource', 'page', 'post' ))) {
-        // Output Twitter Share button - via plugin
-        echo do_shortcode('[napc_edit_button]');
+		// echo do_shortcode('[napc_edit_button]');
+		$out = edit_post_link('Edit This', '', '', '', 'napc-edit-button');
+    	return $out;
     }
 }
