@@ -34,7 +34,7 @@ add_shortcode('sg_logo', function () {
 	// $context = Timber::get_context();
     // $post = new TimberPost();
     // $context['post'] = $post;
-    return Timber::render( 'sg-logo.twig' );
+    Timber::render( 'sg-logo.twig' );
 
     // $out = '';
     // return $out;
