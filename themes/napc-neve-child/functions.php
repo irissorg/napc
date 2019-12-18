@@ -31,8 +31,7 @@ add_shortcode('napc_edit_button', function () {
 });
 
 add_shortcode('sg_logo_link', function () {
-	// return Timber::compile( 'sg-logo.twig' );
-	return 'HELLO';
+	return Timber::compile( 'sg-logo.twig' );
 });
 
 
