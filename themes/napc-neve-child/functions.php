@@ -38,7 +38,10 @@ add_shortcode('napc_edit_button', function () {
 add_shortcode('sg_logo', function () {
 	return Timber::compile( 'sg-logo.twig' );
 });
-
+//render scottish gov logo and link - svg version
+add_shortcode('su_logo', function () {
+	return Timber::compile( 'su-logo.twig' );
+});
 
 
 
