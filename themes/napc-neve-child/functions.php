@@ -2,6 +2,8 @@
 $loader = new Timber\Loader();
 $loader->clear_cache_twig();
 
+
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
