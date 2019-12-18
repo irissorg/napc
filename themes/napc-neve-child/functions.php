@@ -34,6 +34,7 @@ add_shortcode('napc_edit_button', function () {
     return $out;
 });
 
+//render scottish gov logo and link - svg version
 add_shortcode('sg_logo', function () {
 	return Timber::compile( 'sg-logo.twig' );
 });
