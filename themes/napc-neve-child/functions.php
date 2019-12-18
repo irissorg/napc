@@ -30,7 +30,7 @@ add_shortcode('napc_edit_button', function () {
     return $out;
 });
 
-add_shortcode('sg_logo_link', function () {
+add_shortcode('sg_logo', function () {
 	return Timber::compile( 'sg-logo.twig' );
 });
 
