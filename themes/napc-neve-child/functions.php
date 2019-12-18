@@ -31,9 +31,10 @@ add_shortcode('napc_edit_button', function () {
 });
 
 add_shortcode('sg_logo', function () {
-	$loader = new TimberLoader();
-	$loader->clear_cache_timber();
+	
+	$loader = new Timber\Loader();
 	$loader->clear_cache_twig();
+
 	return Timber::compile( 'sg-logo.twig' );
 });
 
