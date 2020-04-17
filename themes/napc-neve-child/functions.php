@@ -41,7 +41,7 @@ add_shortcode('su_logo', function () {
 
 
 
-add_theme_support( 'editor-color-palette', array() );
+//add_theme_support( 'editor-color-palette', array() );
 
 
 
