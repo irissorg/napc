@@ -14,7 +14,7 @@ if ( ! function_exists( 'napc_neve_child_load' ) ):
 	 */
 	function napc_neve_child_load() {
 		wp_enqueue_style( 'napc-neve-child-style', trailingslashit( get_stylesheet_directory_uri() ) . 'style.css', array( 'neve-style' ), CHILD_THEME_NAPC_VERSION );
-		wp_enqueue_script('napc-theme-js', get_stylesheet_directory_uri() . 'napc-focus.js', array(), CHILD_THEME_NAPC_VERSION, 'all');
+		wp_enqueue_script('napc-theme-js', get_stylesheet_directory_uri() . '/napc-focus.js', array(), CHILD_THEME_NAPC_VERSION, 'all');
 	}
 endif;
 add_action( 'wp_enqueue_scripts', 'napc_neve_child_load', 20 );
